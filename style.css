@@ -1,7 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+body .buttonyellow {
+  background-color: #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 11px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+body .buttonyellow:hover {
+  background-color: #2b2b2b;
+  color: #F0EFE9;
+}
+body .buttonyellow i {
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+body .buttontrans {
+  background-color: transparent;
+  color: #191919;
+  text-decoration: none;
+  padding: 11px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #191919;
+}
+body .buttontrans:hover {
+  background-color: #2b2b2b;
+  color: #F0EFE9;
+}
+body .buttontrans i {
+  margin-left: 5px;
+  font-size: 0.9em;
 }
 
 header {
@@ -102,24 +138,57 @@ header .menu .main-menu nav a.active::after, header .menu .main-menu nav a:hover
   bottom: -3px;
   transform: translate(calc(50% - 15px));
 }
-header .menu .main-menu .buttontheme {
-  background-color: #F9D783;
-  color: #191919;
-  text-decoration: none;
-  padding: 11px 30px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 600;
+
+.Hero {
+  background-color: #F0EFE9;
 }
-header .menu .main-menu .buttontheme:hover {
-  background-color: #2b2b2b;
-  color: #F0EFE9;
+.Hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
-header .menu .main-menu .buttontheme i {
-  margin-left: 5px;
-  font-size: 0.9em;
+.Hero .container img {
+  margin-right: -50px;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .Hero .container img {
+    display: block;
+  }
+}
+.Hero .container .content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.Hero .container .content h1 {
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  .Hero .container .content h1 {
+    font-size: 86px;
+    text-align: unset;
+  }
+}
+.Hero .container .content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.Hero .container .content a {
+  margin-right: 10px;
 }
 
 footer {
   background-color: #0E1021;
+  height: 514px;
+  bottom: 100%;
+}
+footer .container {
+  color: #F0EFE9;
 }/*# sourceMappingURL=style.css.map */
