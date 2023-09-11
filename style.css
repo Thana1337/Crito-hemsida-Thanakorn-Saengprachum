@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F0EFE9;
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 76px;
+}
+header .menu-bars {
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  header .menu-bars {
+    display: none;
+  }
+}
+header .menu {
+  display: none;
+  flex: 1;
+}
+@media (min-width: 992px) {
+  header .menu {
+    display: block;
+  }
+}
+header .menu .top-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #DAD9D3;
+  padding-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+@media (min-width: 1200px) {
+  header .menu .top-menu {
+    justify-content: space-between;
+  }
+}
+header .menu .top-menu .contact-information {
+  display: none;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  header .menu .top-menu .contact-information {
+    display: flex;
+  }
+}
+header .menu .top-menu .contact-information .content-box {
+  font-weight: 300;
+  font-size: 15px;
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #DAD9D3;
+}
+header .menu .top-menu .contact-information .content-box i {
+  margin-right: 5px;
+  font-size: 1.25em;
+}
+header .menu .top-menu .contact-information .content-box.last {
+  border: none;
+}
+header .menu .top-menu .social a {
+  color: #000000;
+  margin-left: 15px;
+  font-size: 20px;
+}
+header .menu .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+header .menu .main-menu nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #191919;
+  margin-right: 37px;
+  position: relative;
+}
+header .menu .main-menu nav a.active {
+  font-weight: 500;
+}
+header .menu .main-menu nav a.active::after, header .menu .main-menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
+}
+header .menu .main-menu .buttontheme {
+  background-color: #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 11px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .menu .main-menu .buttontheme:hover {
+  background-color: #2b2b2b;
+  color: #F0EFE9;
+}
+header .menu .main-menu .buttontheme i {
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #0E1021;
+}/*# sourceMappingURL=style.css.map */
