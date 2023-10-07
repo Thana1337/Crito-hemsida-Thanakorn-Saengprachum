@@ -1375,6 +1375,8 @@ header .menu .main-menu nav a.active::after, header .menu .main-menu nav a:hover
   position: absolute;
   bottom: 0;
   z-index: -1;
+  width: 100%;
+  height: auto;
 }
 .lets-connect .container {
   display: flex;
@@ -1598,6 +1600,7 @@ footer .drawing-lines {
 }
 footer .container {
   color: #707070;
+  padding: 0px;
 }
 footer .container .top-footer {
   padding: 100px 0px;
@@ -1629,16 +1632,14 @@ footer .container .top-footer .footer-top-right p {
 }
 footer .container .top-footer .menybar-footer {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 footer .container .top-footer .menybar-footer .menybar-dropdown {
   display: flex;
   flex-direction: column;
+  margin-right: 70px;
 }
 footer .container .top-footer .menybar-footer .menybar-dropdown h4 {
   color: #FFFFFF;
-  margin-bottom: 35px;
 }
 footer .container .top-footer .menybar-footer .menybar-dropdown a {
   color: #707070;

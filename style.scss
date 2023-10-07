@@ -1388,6 +1388,8 @@ header {
         position: absolute;
         bottom: 0;
         z-index: -1;
+        width: 100%;
+        height: auto;
     }
     .container{
         display: flex;
@@ -1597,7 +1599,6 @@ footer{
     @media (min-width:1200px) {
         padding: 0px 0px;
         }
-
     .drawing-lines{
         position: absolute;
         z-index: -1;
@@ -1606,6 +1607,7 @@ footer{
     }
     .container{
         color: #707070;
+        padding: 0px;
     .top-footer{
         padding: 100px 0px;
         display: grid;
@@ -1633,14 +1635,16 @@ footer{
 
         .menybar-footer{
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            // justify-content: space-around;
+            // align-items: center;
             .menybar-dropdown{
             display: flex;
             flex-direction: column;
+            margin-right: 70px;
+            
             h4{
                 color: #FFFFFF;
-                margin-bottom: 35px;
+                // margin-bottom: 35px;
             }
             a{
                 color: #707070;
