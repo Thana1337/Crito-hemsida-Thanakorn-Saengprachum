@@ -53,12 +53,18 @@
         <main>
             <!-- showcase-section -->
             <section class="Hero">
+                <img class="drawing-lines" src="asset/Element1.svg" alt="Drawing lines">
                 <div class="container">
                     <div class="content">
                         <h1>We Provide The Best Business Solutions</h1>
                         <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
-                        <a class="buttonyellow" href="placeholder.html">Get Consulting <i class="fa-regular fa-arrow-up-right"></i></a>
-                        <a class="buttontrans" href="placeholder.html">Learn More <i class="fa-regular fa-arrow-up-right"></i></a>
+                        <div class="btn-animation-div">
+                            <span class="buttonyellow-animation"><a href="placeholder.html"><span>Get Consulting <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                        </div>
+                        <div class="btn-animation-div">
+                            <span class="buttontrans-animation"><a href="placeholder.html"><span>Learn More <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                        </div>
+                        
                     </div>
                     <img src="asset/showcase.png" alt="Man in suite with a tablet">
                 </div>
@@ -81,7 +87,9 @@
                         <p>Features</p>
                         <h2>Our Accounting is trusted by thousand of companies </h2>
                         <div>
-                            <a class="buttonyellow" href="placeholder.html">Learn More <i class="fa-regular fa-arrow-up-right"></i></a>
+                            <div class="btn-animation-div">
+                                <span class="buttonyellow-animation"><a href="placeholder.html"><span>Learn More <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>  
                         </div>
                         
                     </div>
@@ -120,7 +128,10 @@
                         </div>
                         <div class="bottom">
                             <div class="learn-more">
-                                <a class="buttonblack" href="placeholder.html">Learn More <i class="fa-regular fa-arrow-up-right"></i></a>
+                                <div class="btn-animation-div">
+                                    <span class="buttonblack-animation"><a href="placeholder.html"><span>Learn More <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                                </div>
+                                
                             </div>
                             <div class="intro-video">
                                 <a href="placeholder.html"><i class="fa-solid fa-play icon-border"></i>Intro video</a>
@@ -131,6 +142,7 @@
             </section>
             <!-- services -->
             <section class="services">
+                <img class="drawing-lines" src="asset/Element2.svg" alt="Drawing lines">
                 <div class="container">
                     <div class="top">
                         <p>Our Services</p>
@@ -172,7 +184,9 @@
                     </div>
                     <div class="bottom">
                         <div>
-                            <a class="buttontrans" href="placeholder.html">Browse Services <i class="fa-regular fa-arrow-up-right"></i></a>
+                            <div class="btn-animation-div">
+                                <span class="buttontrans-animation"><a href="placeholder.html"><span>Browse Services <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -226,12 +240,11 @@
                         </div>
                     </div>
                     <div class="wcu-right">
-                        <!-- <img id="bg" src="asset/BG.png" alt="background color beige"> -->
-                        <img src="asset/why-choose-us.png" alt="two women communicating on a meeting">
+                        <img id="bg" src="asset/BG.png" alt="background color beige">
+                        <img id="wcu-image" src="asset/why-choose-us.png" alt="two women communicating on a meeting">
                     </div>
                 </div>
             </section>
-
             <!-- project & case studies -->
             <section class="project-studies">
                 <div class="container">
@@ -274,21 +287,212 @@
                         </div>
                     </div>
                     <div class="p-s-buttom">
-                        <a class="buttonblack" href="placeholder.html">All Recent Projects <i class="fa-regular fa-arrow-up-right"></i></a>
+                        <div class="btn-animation-div">
+                            <span class="buttonblack-animation"><a href="placeholder.html"><span>All Recent Projects <i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                        </div>
                     </div>
 
 
 
                 </div>
             </section>
+            <!-- meet our team -->
+            <section class="team">
+                <div class="container">
+                    <div class="team-top">
+                        <div>
+                            <p id="red">Meet Our Team</p>
+                            <h2 id="title">Experience Team members</h2>
+                        </div>
+                        <div>
+                            <div class="btn-animation-div">
+                                <span class="buttontrans-animation"><a href="placeholder.html"><span>Browse Team<i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-middle">
+                        <div class="team-member">
+                            <img src="asset/kristineP.png" alt="Picture of Krisine Palmer">
+                            <h3>Kristine Palmer</h3>
+                            <p>Chef Operatiion Officer</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="asset/markA.png" alt="Picture of Mark Aubri">
+                            <h3>Mark Aubri</h3>
+                            <p>Senior Consultant</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="asset/kimberlyH.png" alt="Picture of Kimberly Hansen">
+                            <h3>Kimberly Hansen</h3>
+                            <p>Senior Consultant</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="asset/justinW.png" alt="Picture of Justin Willoman">
+                            <h3>Justin Willoman</h3>
+                            <p>Senior Tech Consultant</p>
+                        </div>
+                    </div>
+                    <div class="team-bottom">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle active"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                </div>
+
+            </section>
+            <!-- testimonial -->
+            <section class="testimonial">
+                <div class="container">
+                    <div class="testimonial-top">
+                        <p id="red">Testimonial</p>
+                        <h2 id="title">What Our Client Says</h2>
+                    </div>
+                    <div class="testimonial-middle">
+                        <div class="review-box">
+                            <div class="review-box-top">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
+                            </div>
+                            <div class="review-box-bottom">
+                                <div>
+                                    <img src="asset/cassandraW.png" alt="Profile picture of Cassandra Warren">
+                                </div>
+                                <div>
+                                    <h3>Cassandra Waarren</h3>
+                                    <p id="red">Business Manager, Dorfus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <div class="review-box-top">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
+                            </div>
+                            <div class="review-box-bottom">
+                                <div>
+                                    <img src="asset/amandaT.png" alt="Profile picture of Amanda Tulling">
+                                </div>
+                                <div>
+                                    <h3>Amanda Tulling</h3>
+                                    <p id="red">Senior Developer, Square</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <div class="review-box-top">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
+                            </div>
+                            <div class="review-box-bottom">
+                                <div>
+                                    <img src="asset/jackD.png" alt="Profile picture of Jack McDogglas">
+                                </div>
+                                <div>
+                                    <h3>Jack McDogglas</h3>
+                                    <p id="red">Key Account Manager, Gobona</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="testimonial-bottom">
+                        <div>
+                            <div class="btn-animation-div">
+                                <span class="buttonblack-animation"><a href="placeholder.html"><span>All Reviews<i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- article and news -->
+            <section class="article-news">
+                <div class="container">
+                    <div class="article-news-top">
+                        <div>
+                            <p id="red">Article & News</p>
+                            <h2 id="title">Get Every Single Articles & News</h2>
+                        </div>
+                        <div>
+                            <div class="btn-animation-div">
+                                <span class="buttontrans-animation"><a href="placeholder.html"><span>Browse Articles<i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-news-middle">
+                        <article id="article1">
+                            <div class="date">
+                                <div>25 <br><p>Mar</p></div>
+                            </div>
+                            <img src="asset/article1.png" alt="Woman sitting by a table">
+                            <p>Business</p>
+                            <h3>How To Use Digitalization In The Classroom</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                        </article>
+                        <article id="article2">
+                            <div class="date">
+                                <div>17 <br><p>Mar</p></div>
+                            </div>
+                            <img src="asset/article2.png" alt="Computer Screene showing chat GPT">
+                            <p>Business</p>
+                            <h3>How To Use Digitalization In The Classroom</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                        </article>
+                        <article id="article3">
+                            <div class="date">
+                                <div>13 <br><p>Mar</p></div>
+                            </div>
+                            <img src="asset/article3.png" alt="Books and mobile phone on a table">
+                            <p>Business</p>
+                            <h3>How To Use Digitalization In The Classroom</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                        </article>
+
+                    </div>
+                    <div class="article-news-bottom">
+                        <i class="fa-solid fa-circle active"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                </div>
+            </section>
             <!-- newsletter -->
             <section class="newsletter">
+                <img class="drawing-lines" src="asset/Element3.svg" alt="Drawing lines">
                 <div class="container">
-                    <h2 id="title">Get News Updates By Signup</h2>
-                    <form action="placeholder.html">
-                        <input type="email" name="email" id="email" placeholder="username@domain.com">
-                    </form>
-                    <a class="buttonyellow" href="placeholder.html">Subscribe<i class="fa-regular fa-arrow-up-right"></i></a>
+                    <div>
+                        <h2>Get News Updates By Signup</h2>
+                    </div>
+                    <div class="subscribe">
+                        <div>
+                            <input type="email" placeholder="username@domain.com">
+                            <div class="btn-animation-div">
+                                <span class="buttonyellow-animation"><a href="placeholder.html"><span>Subscribe<i class="fa-regular fa-arrow-up-right"></i></span></a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -329,13 +533,14 @@
                             <a href="placeholder.html">How to - Blog</a>
                             <a href="placeholder.html">Youtube Playlist</a>
                         </div>
-
                     </div>
-
                 </div>
             </div>
             <div class="border-out">
+                <img class="drawing-lines" src="asset/Element4.svg" alt="Drawing lines">
             </div>
+        </footer>
+        <footer class="footer-bottom">
             <div class="container">
                 <div class="bottom-footer">
                     <p>© 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
